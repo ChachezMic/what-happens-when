@@ -490,6 +490,12 @@ and IIS for Windows.
 * The server breaks down the request to the following parameters:
    * HTTP Request Method (either ``GET``, ``HEAD``, ``POST``, ``PUT``,
      ``PATCH``, ``DELETE``, ``CONNECT``, ``OPTIONS``, or ``TRACE``). In the
+     #What the GET request entails and what it does.
+     GET REQUEST
+   * The GET request is used to retrieve information from the given server using
+   * THE GIVEN URL
+   * Request through the GET request should only retrieve data and have
+     no effect on the data.
      case of a URL entered directly into the address bar, this will be ``GET``.
    * Domain, in this case - google.com.
    * Requested path/page, in this case - / (as no specific path/page was
